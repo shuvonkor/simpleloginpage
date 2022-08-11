@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.loginpage {
+    width: 320px;
+    height: 420px;
+    font-weight: bold;
+    background: #1e272c;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.loginpage p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginpage input {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.loginpage input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.loginpage input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: red;
+    color: #fff;
+    border-radius: 18px;
+    font-size: 20px;
+
+}
+
+.loginpage input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: 000;
+}
+
+.loginpage a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 20px;
+    color: darkslategrey;
+
+}
+
+.loginpage a:hover {
+    color: #ffc107;
+}
